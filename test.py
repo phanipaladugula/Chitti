@@ -1,7 +1,7 @@
 from agent import get_reply
 
 while True:
-    text=input("User: ")
-    if text=="exit":
+    message=input("User: ")
+    if message=="exit":
         break
-    print("AI: ",get_reply(text))
+    print("AI: ",get_reply(message))
